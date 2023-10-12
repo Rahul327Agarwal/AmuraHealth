@@ -1,0 +1,33 @@
+import { Meta, Story } from '@storybook/blocks';
+import * as RadioStories from './MUIRadio.stories';
+import Radio from './MUIRadio.tsx';
+
+<Meta of={RadioStories} />;
+
+# Radio
+
+Radio buttons enable the user to select one option from a set.
+
+<Story of={RadioStories.Primary} />
+
+# Unit test cases
+
+- <b>Test case 1:</b> Test that the Radio is rendered.
+
+- <b>Test case 2:</b> Test that the Radio has the correct text.
+
+- <b>Test case 3:</b> Test that the Radio is checked when the checked prop is set to true.
+
+- <b>Test case 4:</b> Test that the Radio is unchecked when the checked prop is set to false.
+
+- <b>Test case 5:</b> Test that the Radio is enabled when the disabled prop is set to false or not set at all.
+
+- <b>Test case 6:</b> Test that the Radio fires the onChange event when checked or unchecked.
+
+- <b>Test case 7:</b> Test that the Radio passes the correct arguments to the onChange event handler.
+
+- <b>Test case 8:</b> Test that the Radio is accessible to screen readers.
+
+- <b>Test case 9:</b> Test that the Radio works with different input devices, such as a keyboard or a mouse.
+
+

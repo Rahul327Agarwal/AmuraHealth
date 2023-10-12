@@ -1,0 +1,18 @@
+import { Meta, Story } from '@storybook/blocks';
+import * as IconWithInitialStories from './IconWithInitial.stories';
+import IconWithInitial from './IconWithInitial.tsx';
+
+<Meta of={IconWithInitialStories} />
+
+# IconWithInitial
+
+The component taskes an icon and the initial of a name and displays them in a manner which indicates the icon is relevant to the person whose initials are visible.
+
+<Story of={IconWithInitialStories.Primary} />
+
+# Unit test cases
+
+- Verifies an icon is present.
+- Veifies an initial is present and visible.
+- Verifies dispalyed initials do not exceed character limit.
+- Verifies initial container doesn't appear if empty initial is passed

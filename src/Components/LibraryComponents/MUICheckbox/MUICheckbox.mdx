@@ -1,0 +1,41 @@
+import { Meta, Story } from '@storybook/blocks';
+import * as CheckboxStories from './Checkbox.stories';
+import Checkbox from './MUICheckbox.tsx';
+
+<Meta of={CheckboxStories} />
+
+# Checkbox
+
+Checkboxes can be used to turn an option on or off.
+
+If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch instead.
+
+<Story of={CheckboxStories.Primary} />
+
+# Unit test cases
+
+- <b>Test case 1:</b> Test that the checkbox is rendered.
+
+- <b>Test case 2:</b> Test that the checkbox has the correct text.
+
+- <b>Test case 3:</b> Test that the checkbox is checked when the checked prop is set to true.
+
+- <b>Test case 4:</b> Test that the checkbox is unchecked when the checked prop is set to false.
+
+- <b>Test case 5:</b> Test that the checkbox is enabled when the disabled prop is set to false or not set at all.
+
+- <b>Test case 6:</b> Test that the checkbox fires the onChange event when checked or unchecked.
+
+- <b>Test case 7:</b> Test that the checkbox passes the correct arguments to the onChange event handler.
+
+- <b>Test case 8:</b> Test that the checkbox is accessible to screen readers.
+
+- <b>Test case 9:</b> Test that the checkbox works with different input devices, such as a keyboard or a mouse.
+
+
+
+
+
+
+
+

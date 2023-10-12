@@ -1,0 +1,23 @@
+import React from 'react';
+import { Story, Meta } from '@storybook/react';
+import ErrorBoundary from './TestComponent';
+import { ErrorBoundaryProps } from './ErrorBoundary.types';
+
+export default {
+  title: 'Error Boundary/ErrorBoundary',
+  component: ErrorBoundary,
+  parameters: {
+    backgrounds: {
+      default: 'Light',
+      values: [
+        { name: 'Dark', value: '#000000' },
+        { name: 'Panel', value: '#1B1B1B' },
+        { name: 'Light', value: '#FFFFFF' },
+      ],
+    },
+  },
+} as Meta;
+
+const TemplatePrimary: Story<any> = (args) => <ErrorBoundary {...args} />;
+export const Primary = TemplatePrimary.bind({});
+Primary.args = {};

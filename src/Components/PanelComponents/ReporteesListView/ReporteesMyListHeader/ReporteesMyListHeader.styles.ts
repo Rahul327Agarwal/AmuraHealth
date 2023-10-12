@@ -1,0 +1,60 @@
+import { makeStyles } from 'tss-react/mui';
+export const useStyles = makeStyles<any>()((theme, props) => ({
+  nameCardHeader: {
+    display: 'grid',
+    gridTemplateColumns: 'auto auto 1fr',
+    gap: '15px',
+    padding: '12px 20px',
+    alignItems: 'center',
+    background: theme.palette.colors.system.white,
+  },
+  backButton: {
+    padding: '0 !important',
+  },
+  profileDiv: {
+    height: '47px',
+    width: '47px',
+    position: 'relative',
+  },
+  logoIcon: {
+    display: 'block',
+    height: '18px',
+    width: '18px',
+    position: 'absolute',
+    top: '28px',
+    zIndex: 1,
+    left: '28px',
+  },
+  profilePic: {
+    borderRadius: '50%',
+    height: '44px',
+    width: '44px',
+    position: 'relative',
+    fontSize: '12px',
+    fontFamily: 'Graphik',
+    fontWeight: 400,
+    color: '#FFFFFF',
+    backgroundColor: theme.palette.colors.gray[900],
+  },
+  nameContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '8px',
+  },
+  userNametext: {
+    color: theme.palette.colors.theme.primary,
+  },
+  userRoleBox: {
+    color: theme.palette.colors.gray[500],
+    background: theme.palette.colors.gray[50],
+    borderRadius: '4px',
+    width: '100%',
+    overflow: 'hidden',
+    wordBreak: 'break-word',
+    display: '-webkit-box',
+    WebkitLineClamp: 1,
+    WebkitBoxOrient: 'vertical',
+    padding: '0px 8px',
+    lineHeight: '2.1 !important',
+  },
+}));

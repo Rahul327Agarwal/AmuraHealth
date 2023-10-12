@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "net.cloudfront.d207oibosg9do1.twa",
+      "sha256_cert_fingerprints": [
+        "8F:6B:6D:78:E9:75:77:4D:69:63:94:DC:F5:B8:8E:CE:18:A5:9B:6F:D1:70:55:D3:CB:B8:48:5C:59:49:F4:A9",
+        "4B:87:AC:AA:71:50:04:52:F5:A8:A1:07:60:6D:E0:8A:8D:14:0F:AE:32:34:8C:C1:5C:3C:9A:A4:1E:3F:39:BF"
+      ]
+    }
+  }
+]

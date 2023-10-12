@@ -1,0 +1,43 @@
+import { Meta, Story } from '@storybook/blocks';
+import * as ButtonStories from './MUIButton.stories';
+import MUIButton from './MUIButton.tsx';
+
+<Meta of={ButtonStories} />
+
+# Button
+
+Button is a clickable interactive element that triggers a response.
+
+You can place text and icons inside of a button.
+
+Buttons are often used for form submissions and to toggle elements into view.
+
+<Story of={ButtonStories.Primary} />
+
+Different variants in Buttons:
+
+1. contained
+
+   <Story of={ButtonStories.Contained} />
+
+2. outline
+
+   <Story of={ButtonStories.Outlined} />
+
+3. text
+
+   <Story of={ButtonStories.Text} />
+
+# Unit test cases
+
+<b>Test case 1:</b> Verify that the button is rendered with the correct text.
+<b>Test case 2:</b> Verify that the button is disabled when the disabled prop is set to true.
+<b>Test case 3:</b> Verify that the button is enabled when the disabled prop is not set or is set to false.
+<b>Test case 4:</b> Verify that the button fires the onClick event when clicked.
+<b>Test case 5:</b> Verify that the button has the correct CSS class when it is disabled.
+<b>Test case 6:</b> Verify that the button has the correct CSS class when it is not disabled.
+<b>Test case 7:</b> should render a large/small button with the appropriate styles.
+<b>Test case 8:</b> Test Button Variants (e.g., primary, secondary):
+<b>Test case 9:</b> Test Custom Styling:
+<b>Test case 10:</b> Test Button Variants (e.g., primary, secondary):
+<b>Test case 11:</b> Test Accessibility Attributes:

@@ -1,0 +1,76 @@
+import { Slider } from '@mui/material';
+import { withStyles } from 'tss-react/mui';
+
+export const SliderStyled = withStyles(Slider, {
+  root: {
+    color: '#3880ff',
+    height: 6,
+    width: 'calc(100% - 16px)',
+    transform: 'translateX(8px)',
+  },
+  thumb: {
+    width: '25px',
+    height: '25px',
+    position: 'relative',
+    background: '#fff',
+    border: '5px solid rgba(37, 36, 39, 0.07)',
+    boxShadow: '4px 4px 15px rgba(0, 0, 0, 0.5), -4px -4px 15px rgba(0, 0, 0, 0.3) !important',
+    boxSizing: 'border-box',
+    transform: 'translate(-50%, calc(-50% + 3px))',
+    margin: '0 !important',
+
+    '&::before': {
+      content: "''",
+      top: '50%',
+      left: '50%',
+      height: '15px',
+      zIndex: '10',
+      position: 'absolute',
+      transform: 'translate(-50%,-50%)',
+      borderLeft: '3px solid #E1E1E1',
+      borderRight: '3px solid #E1E1E1',
+      padding: '0 1px',
+    },
+    '&::after': {
+      position: 'absolute',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%,-50%)',
+      height: '26px',
+      width: '26px',
+      borderRadius: '50%',
+      background: '#F0F0F0',
+      boxSizing: 'border-box',
+      boxShadow: '0px 4px 4px rgba(255, 255, 255, 0.08), 0px 4px 2px rgba(147, 147, 147, 0.21)',
+    },
+  },
+  track: {
+    width: 'calc(100% + 16px)',
+    transform: 'translateX(-8px)',
+    height: '6px',
+    background: '#5C5A61',
+    borderRadius: '3px',
+  },
+  rail: {
+    width: 'calc(100% + 16px)',
+    transform: 'translateX(-8px)',
+    height: '6px',
+    background: '#F1F1F1',
+    borderRadius: '3px',
+    opacity: '1',
+  },
+  mark: {
+    color: '#A6A6A6',
+    width: '2px',
+    height: '5px',
+    fontSize: '10px',
+    backgroundColor: '#bfbfbf',
+    top: '21px',
+    opacity: 1,
+  },
+  markLabel: {
+    color: '#A6A6A6',
+    fontSize: '12px',
+    top: '27px',
+  },
+});

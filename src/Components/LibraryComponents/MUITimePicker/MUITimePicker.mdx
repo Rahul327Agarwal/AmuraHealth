@@ -1,0 +1,40 @@
+import { Meta, Story } from '@storybook/blocks';
+import * as TimePickerStories from './MUITimePicker.stories';
+import MUITimePicker from './MUITimePicker';
+
+<Meta of={TimePickerStories} />
+
+# TimePicker
+
+TimePicker is a clickable and editable element that is able to choose a time.
+
+TimePicker are often used to choose and select a time in 12 hours format.
+
+<Story of={TimePickerStories.Primary} />
+
+Different variants in TimePicker:
+
+<b>1. Normal</b>
+
+<Story of={TimePickerStories.Primary} />
+
+<br />
+<b>2. With Seconds</b>
+
+<Story of={TimePickerStories.Seconds} />
+
+# Unit test cases
+
+<b>Test case 1:</b> Verify that the TimePicker is rendered with the correct time.
+
+<b>Test case 2:</b> Verify that when the time picker is clicked it should open a Edit Box.
+
+<b>Test case 3:</b> Verify that the edit box has edit and cancel button.
+
+<b>Test case 4:</b> Verify that the buttons in edit box is clickable.
+
+<b>Test case 5:</b> Verify that the Header is displayed in Edit box when header title is passed.
+
+<b>Test case 6:</b> Verify that the input value has correct time shown in edit box.
+
+<b>Test case 7:</b> Verify that seconds input is shown if showSeconds is passed as true.

@@ -1,0 +1,52 @@
+import { makeStyles } from 'tss-react/mui';
+
+// TODO jss-to-tss-react codemod: usages of this hook outside of this file will not be converted.
+export const useStyles = makeStyles()(() => ({
+  headerWrap: {
+    // position: "absolute",
+    width: '117px',
+    height: '24px',
+    left: '56px',
+    top: '52px',
+    fontFamily: 'Graphik',
+    fontStyle: 'normal',
+    fontWeight: 500,
+    fontSize: '20px',
+    lineHeight: '24px',
+    color: '#252427',
+  },
+  description: {
+    // position: "absolute",
+    width: '258px',
+    height: '20px',
+    left: '56px',
+    top: '80px',
+    fontFamily: 'Graphik',
+    fontStyle: 'normal',
+    fontWeight: 400,
+    fontSize: '14px',
+    lineHeight: '20px',
+    display: 'flex',
+    alignItems: 'center',
+    color: '#5C5A61',
+  },
+  Date: {
+    // position: "absolute",
+    marginTop: '20px',
+    width: '117px',
+    height: '40px',
+    left: '56px',
+    top: '152px',
+    fontFamily: 'Graphik',
+    fontStyle: 'normal',
+    fontweight: 400,
+    fontSize: '14px',
+    lineHeight: '20px',
+    color: '#5C5A61',
+  },
+  flex: {
+    display: 'flex',
+    justifyContent: 'space-between',
+  },
+  pmargin: { margin: '0' },
+}));

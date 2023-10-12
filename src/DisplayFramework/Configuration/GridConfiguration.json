@@ -1,0 +1,77 @@
+{
+  "header": [
+    {
+      "panelId": "M",
+      "panelName": "Menu",
+      "DRank": 230,
+      "L2R": 10,
+      "MinW": "Min",
+      "MaxW": "User",
+      "MinH": 92,
+      "MaxH": 92
+    },
+    {
+      "panelId": "T",
+      "panelName": "Team",
+      "DRank": 220,
+      "L2R": 20,
+      "MinW": "Min",
+      "MaxW": "Fill",
+      "MinH": 92,
+      "MaxH": 92
+    }
+  ],
+  "main": [
+    {
+      "panelId": "H",
+      "panelName": "Home",
+      "DRank": 500,
+      "L2R": 10,
+      "MinW": "Min",
+      "MaxW": "User",
+      "MinH": 1,
+      "MaxH": "Fill",
+      "static": true
+    },
+    {
+      "panelId": "S",
+      "panelName": "Summary",
+      "DRank": 50,
+      "L2R": 20,
+      "MinW": "Min",
+      "MaxW": "User",
+      "MinH": 1,
+      "MaxH": "Fill"
+    },
+    {
+      "panelId": "D",
+      "panelName": "Dash",
+      "DRank": 40,
+      "L2R": 40,
+      "MinW": "Min",
+      "MaxW": "User",
+      "MinH": 1,
+      "MaxH": "Fill"
+    },
+    {
+      "panelId": "C",
+      "panelName": "Chat",
+      "DRank": 30,
+      "L2R": 80,
+      "MinW": "Min",
+      "MaxW": "User",
+      "MinH": 1,
+      "MaxH": "Fill"
+    },
+    {
+      "panelId": "R",
+      "panelName": "Resources",
+      "DRank": 60,
+      "L2R": 60,
+      "MinW": "Min",
+      "MaxW": "User",
+      "MinH": 1,
+      "MaxH": "Fill"
+    }
+  ]
+}

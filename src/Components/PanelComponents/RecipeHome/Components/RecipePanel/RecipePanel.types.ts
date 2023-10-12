@@ -1,0 +1,31 @@
+import React from "react";
+import { Actions, IUserNameObj } from "../../RecipeHome.types";
+export interface IProps {
+  selectedClient?: any;
+  sessions?: any;
+  childEventTrigger?: any;
+  panel?: any;
+  handleClickBack?: () => void;
+  fields?: any;
+  setFiels?: any;
+  setAction?: Function;
+  setActionType?: Function;
+  ingredientInfo?: any;
+  setIngredientInfo?: Function;
+  setDisplayScreen?: Function;
+  setRecipesData?: Function;
+  recipesData?: any;
+  showFooter?: boolean;
+  // setActionType?: Function;
+  action?: Actions;
+  handleViewByUser?: Function;
+  recipeData?: any;
+  showDelete?: boolean;
+  servingToMultiply?: any;
+  setNavigatedFrom?: Function;
+  viewingDB?: string;
+  isDetailsView?: boolean;
+  setIsEdit?: Function;
+  contributorNames?: IUserNameObj;
+  setContributorNames?: React.Dispatch<React.SetStateAction<IUserNameObj>>;
+}

@@ -1,0 +1,95 @@
+.AllergensBody {
+  overflow: auto;
+  height: calc(100% - 150px);
+  word-break: break-all;
+}
+
+.addAllergiesList {
+  max-height: 500px;
+  overflow: auto;
+  position: absolute;
+  width: 345px;
+  padding-left: 5px;
+  padding-right: 5px;
+  bottom: 74px;
+  background: #3f4044;
+}
+.allergen-Header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.allergy-title {
+  font-size: 16px !important;
+  margin-left: 0px !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 0px !important;
+}
+.AllergensPanel {
+  color: #ffffff;
+  height: 100%;
+  background: #3f4044;
+}
+.AllergenCard span {
+  font-size: 14px !important;
+}
+
+.AllergenCard {
+  margin: 4px 6px;
+  padding: 10px 10px;
+}
+
+.AllergenCard:hover {
+  background: #171d20;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.panel-footer-plusIcon {
+  background-color: #00ffc2;
+  position: relative;
+  padding: 14px 16px 14px 18px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 5px solid #3f4044;
+  top: -28px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-footer {
+  background-color: #141415;
+  border-radius: 0px 0px 8px 8px;
+  margin-bottom: 0px !important;
+  bottom: 0;
+  height: 56px;
+  position: absolute;
+  width: 100%;
+}
+
+.panel-header {
+  height: 40px;
+  background-color: #3f4044;
+  margin-bottom: 0px !important;
+  padding: 4px 6px 2px 9px;
+  width: 100%;
+}
+.my-text-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.biomarker-filterIcon:hover {
+  border: 1px solid #4b4e50 !important;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.radioButton {
+  color: #00ffc2 !important;
+}
